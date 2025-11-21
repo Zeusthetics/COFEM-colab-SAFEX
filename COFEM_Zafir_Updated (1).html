@@ -1,0 +1,3230 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://zeusthetics.github.io/cofem-zafir/ -->
+<html lang="en" data-qb-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="COFEM Zafir - Next generation EN54 certified fire alarm system with IoT connectivity, auto-identification, and advanced multi-sensor technology">
+    <meta name="keywords" content="fire alarm, EN54, COFEM Zafir, addressable fire system, IoT fire detection, SAFEX">
+    
+    <!-- Preload Critical Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="COFEM Zafir Fire Alarm System">
+    <meta property="og:description" content="Next generation EN54 certified addressable fire alarm system with advanced IoT capabilities">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="https://safexfire.com/images/zafir-og.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="COFEM Zafir Fire Alarm System">
+    <meta name="twitter:description" content="Next generation fire safety technology">
+    
+    <title>COFEM Zafir - Next Generation Fire Alarm System | SAFEX Fire Services</title>
+    
+    <!-- Reduced Motion Support -->
+    <style>
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            .particle, .grid-overlay, .mouse-follow {
+                animation: none !important;
+                transform: none !important;
+            }
+            .feature-card:hover, .comparison-card:hover, .why-card:hover {
+                transform: none !important;
+            }
+        }
+        
+        /* Focus visible for keyboard navigation */
+        *:focus-visible {
+            outline: 3px solid #00d4ff;
+            outline-offset: 2px;
+        }
+        
+        /* Skip to main content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #00d4ff;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 10000;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #00d4ff;
+            --secondary-color: #ff3366;
+            --accent-color: #00ff88;
+            --dark-bg: #0a0e27;
+            --card-bg: rgba(15, 25, 50, 0.8);
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --text-light: #e0e6ff;
+            --glow-color: rgba(0, 212, 255, 0.5);
+        }
+        
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
+            color: var(--text-light);
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+        
+        .particle {
+            position: absolute;
+            background: var(--primary-color);
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: float 20s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0) scale(1); }
+            25% { transform: translateY(-100px) translateX(50px) scale(1.2); }
+            50% { transform: translateY(-200px) translateX(-50px) scale(0.8); }
+            75% { transform: translateY(-100px) translateX(100px) scale(1.1); }
+        }
+        
+        .grid-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 212, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 212, 255, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 0;
+            pointer-events: none;
+            animation: gridMove 20s linear infinite;
+        }
+        
+        @keyframes gridMove {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(50px); }
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            position: relative;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 50px;
+            overflow: hidden;
+        }
+        
+        .logo-container {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 30px;
+            animation: logoFloat 3s ease-in-out infinite;
+        }
+        
+        @keyframes logoFloat {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.05); }
+        }
+        
+        .logo-circle {
+            width: 180px;
+            height: 180px;
+            background: radial-gradient(circle, var(--primary-color) 0%, transparent 70%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 0 50px var(--glow-color);
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 50px var(--glow-color); }
+            50% { box-shadow: 0 0 80px var(--glow-color), 0 0 100px var(--glow-color); }
+        }
+        
+        .logo-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0 0 20px var(--primary-color);
+            letter-spacing: 2px;
+            white-space: nowrap;
+        }
+        
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGlow 3s ease-in-out infinite;
+        }
+        
+        @keyframes textGlow {
+            0%, 100% { text-shadow: 0 0 10px var(--primary-color); }
+            50% { text-shadow: 0 0 30px var(--primary-color), 0 0 50px var(--primary-color); }
+        }
+        
+        .tagline {
+            font-size: 24px;
+            color: var(--accent-color);
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            padding: 0 20px;
+        }
+        
+        .nav-tab {
+            background: var(--card-bg);
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 15px 35px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .nav-tab::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: var(--primary-color);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+            z-index: 0;
+        }
+        
+        .nav-tab:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .nav-tab:hover {
+            color: #000;
+            box-shadow: 0 0 30px var(--glow-color);
+            transform: translateY(-5px);
+        }
+        
+        .nav-tab.active {
+            background: var(--primary-color);
+            color: #000;
+            box-shadow: 0 0 40px var(--glow-color);
+        }
+        
+        .nav-tab span {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .content-section {
+            display: none;
+            animation: fadeIn 0.8s ease;
+        }
+        
+        .content-section.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .feature-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 20px;
+            padding: 35px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .feature-card::after {
+            content: 'Click to expand';
+            position: absolute;
+            top: 10px;
+            right: 50px;
+            font-size: 12px;
+            color: var(--accent-color);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 1;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .feature-card:hover::after {
+            opacity: 0.7;
+        }
+        
+        .feature-card.expanded::after {
+            content: 'Click to collapse';
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
+            transform: scale(0);
+            transition: transform 0.6s ease;
+        }
+        
+        .feature-card:hover::before {
+            transform: scale(1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 60px var(--glow-color);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-card .icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            animation: iconRotate 10s linear infinite;
+        }
+        
+        @keyframes iconRotate {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(360deg); }
+        }
+        
+        .feature-card h3 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 26px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .feature-card p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--text-light);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .feature-card .more-info-btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .feature-card .more-info-btn:hover {
+            background: var(--accent-color);
+            color: #000;
+            transform: scale(1.05);
+        }
+        
+        .expandable-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease, margin-top 0.5s ease, opacity 0.5s ease;
+            opacity: 0;
+            margin-top: 0;
+        }
+        
+        .feature-card.expanded .expandable-details {
+            max-height: 1000px;
+            margin-top: 20px;
+            opacity: 1;
+        }
+        
+        .detail-item {
+            background: rgba(0, 212, 255, 0.05);
+            border-left: 3px solid var(--accent-color);
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-light);
+            position: relative;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+        
+        .detail-item:hover {
+            background: rgba(0, 212, 255, 0.1);
+            border-left-color: var(--primary-color);
+            transform: translateX(5px);
+        }
+        
+        .detail-item strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .feature-card.expanded {
+            background: rgba(15, 25, 50, 0.95);
+        }
+        
+        .expand-indicator {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            border: 2px solid var(--accent-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--accent-color);
+            transition: all 0.3s ease;
+            z-index: 1;
+        }
+        
+        .feature-card.expanded .expand-indicator {
+            transform: rotate(180deg);
+            background: var(--accent-color);
+            color: #000;
+        }
+        
+        .detail-panel {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.8);
+            width: 90%;
+            max-width: 1000px;
+            max-height: 90vh;
+            background: linear-gradient(135deg, rgba(10, 14, 39, 0.98), rgba(26, 31, 58, 0.98));
+            border: 3px solid var(--primary-color);
+            border-radius: 30px;
+            padding: 40px;
+            z-index: 1000;
+            overflow-y: auto;
+            box-shadow: 0 0 100px var(--glow-color);
+            animation: panelOpen 0.5s ease forwards;
+        }
+        
+        .detail-panel.active {
+            display: block;
+        }
+        
+        @keyframes panelOpen {
+            to { transform: translate(-50%, -50%) scale(1); }
+        }
+        
+        .detail-panel .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--secondary-color);
+            border: none;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 28px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .detail-panel .close-btn:hover {
+            transform: rotate(90deg) scale(1.1);
+            box-shadow: 0 0 30px var(--secondary-color);
+        }
+        
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 999;
+        }
+        
+        .overlay.active {
+            display: block;
+        }
+        
+        .spec-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 10px;
+            margin: 30px 0;
+        }
+        
+        .spec-table tr {
+            background: var(--glass-bg);
+            transition: all 0.3s ease;
+        }
+        
+        .spec-table tr:hover {
+            background: rgba(0, 212, 255, 0.1);
+            transform: translateX(10px);
+        }
+        
+        .spec-table td {
+            padding: 15px 20px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+        
+        .spec-table td:first-child {
+            font-weight: 600;
+            color: var(--primary-color);
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .installation-steps {
+            display: grid;
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .step {
+            background: var(--card-bg);
+            border-left: 5px solid var(--accent-color);
+            padding: 25px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .step::before {
+            content: attr(data-step);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 60px;
+            font-weight: 900;
+            color: rgba(0, 212, 255, 0.1);
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .step:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 40px rgba(0, 255, 136, 0.3);
+        }
+        
+        .step h4 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 22px;
+            color: var(--accent-color);
+            margin-bottom: 12px;
+        }
+        
+        .step p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text-light);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 80px;
+            border-top: 2px solid rgba(0, 212, 255, 0.3);
+        }
+        
+        .footer-logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 32px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .footer-text {
+            font-size: 18px;
+            color: var(--text-light);
+        }
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--dark-bg);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-color);
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .tagline { font-size: 18px; }
+            .nav-tab { padding: 12px 25px; font-size: 16px; }
+            .cards-grid { grid-template-columns: 1fr; }
+            .detail-panel { width: 95%; padding: 25px; }
+        }
+        
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--dark-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loader-ring {
+            width: 150px;
+            height: 150px;
+            border: 5px solid rgba(0, 212, 255, 0.1);
+            border-top-color: var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Mouse Follow Effect */
+        .mouse-follow {
+            transition: transform 0.15s ease-out;
+        }
+        
+        /* Competitive Edge Section */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .comparison-card {
+            background: var(--card-bg);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 20px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .comparison-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+        
+        .comparison-card:hover::before {
+            left: 100%;
+        }
+        
+        .vs-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .comparison-card h3 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 24px;
+            color: var(--primary-color);
+            margin-bottom: 25px;
+        }
+        
+        .comparison-bars {
+            margin: 20px 0;
+        }
+        
+        .bar-row {
+            margin-bottom: 15px;
+        }
+        
+        .bar-label {
+            display: inline-block;
+            width: 140px;
+            font-size: 14px;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+        
+        .bar-container {
+            display: inline-block;
+            width: calc(100% - 150px);
+            height: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .bar {
+            height: 100%;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            transition: width 1s ease;
+            animation: barGrow 1.5s ease;
+        }
+        
+        @keyframes barGrow {
+            from { width: 0 !important; }
+        }
+        
+        .bar-zafir {
+            background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
+            color: #000;
+        }
+        
+        .bar-competitor {
+            background: linear-gradient(90deg, rgba(255, 51, 102, 0.5), rgba(255, 51, 102, 0.3));
+            color: var(--text-light);
+        }
+        
+        .benefit {
+            margin-top: 20px;
+            padding: 12px;
+            background: rgba(0, 255, 136, 0.1);
+            border-left: 4px solid var(--accent-color);
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--accent-color);
+        }
+        
+        .feature-check {
+            margin: 20px 0;
+        }
+        
+        .check-row {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+        }
+        
+        .check-row span:first-child {
+            flex: 1;
+            color: var(--text-light);
+        }
+        
+        .check-zafir {
+            width: 60px;
+            text-align: center;
+            font-size: 20px;
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+        
+        .check-competitor {
+            width: 60px;
+            text-align: center;
+            font-size: 20px;
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+        
+        .feature-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-light);
+        }
+        
+        .feature-list {
+            margin: 20px 0;
+        }
+        
+        .list-item {
+            padding: 10px;
+            margin-bottom: 8px;
+            background: rgba(0, 212, 255, 0.05);
+            border-radius: 8px;
+            color: var(--text-light);
+            font-size: 15px;
+        }
+        
+        /* Device Catalog Section */
+        .device-categories {
+            display: grid;
+            gap: 25px;
+        }
+        
+        .device-category {
+            background: var(--card-bg);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 20px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+        
+        .device-category:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 40px var(--glow-color);
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 15px;
+            position: relative;
+            pointer-events: none;
+        }
+        
+        .category-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            pointer-events: none;
+        }
+        
+        .category-header h3 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 26px;
+            color: var(--primary-color);
+            flex: 1;
+            pointer-events: none;
+        }
+        
+        .category-desc {
+            font-size: 17px;
+            color: var(--text-light);
+            margin-left: 80px;
+            pointer-events: none;
+        }
+        
+        .expand-indicator {
+            font-size: 20px;
+            color: var(--primary-color);
+            transition: transform 0.3s ease;
+            pointer-events: none;
+            margin-left: auto;
+        }
+        
+        .device-category.expanded .expand-indicator {
+            transform: rotate(180deg);
+        }
+        
+        .expandable-details {
+            pointer-events: auto;
+        }
+        
+        .device-category.expanded .expandable-details {
+            max-height: 5000px;
+            margin-top: 20px;
+            opacity: 1;
+        }
+        
+        .device-spec-card {
+            background: rgba(0, 212, 255, 0.05);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .device-spec-card h4 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 20px;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        
+        .spec-item {
+            font-size: 15px;
+            color: var(--text-light);
+        }
+        
+        .spec-item strong {
+            color: var(--primary-color);
+        }
+        
+        .highlight-box {
+            margin-top: 15px;
+            padding: 15px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 212, 255, 0.1));
+            border: 2px solid var(--accent-color);
+            border-radius: 10px;
+            font-size: 16px;
+            color: var(--text-light);
+        }
+        
+        .highlight-box strong {
+            color: var(--accent-color);
+        }
+        
+        /* Why Choose Zafir Section */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .why-card {
+            background: var(--card-bg);
+            border: 2px solid rgba(0, 255, 136, 0.3);
+            border-radius: 20px;
+            padding: 35px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 70%);
+            transform: scale(0);
+            transition: transform 0.6s ease;
+        }
+        
+        .why-card:hover::before {
+            transform: scale(1);
+        }
+        
+        .why-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 20px 60px rgba(0, 255, 136, 0.3);
+            transform: translateY(-10px);
+        }
+        
+        .why-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .why-card h3 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 24px;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .why-list {
+            list-style: none;
+            padding: 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .why-list li {
+            padding: 10px 0 10px 25px;
+            font-size: 16px;
+            color: var(--text-light);
+            position: relative;
+        }
+        
+        .why-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            margin: 80px 0 40px;
+            padding: 60px 40px;
+            background: linear-gradient(135deg, var(--card-bg), rgba(0, 212, 255, 0.05));
+            border: 2px solid var(--primary-color);
+            border-radius: 30px;
+            text-align: center;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .primary-cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: #000;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
+        }
+        
+        .primary-cta:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 50px rgba(0, 212, 255, 0.6);
+        }
+        
+        .secondary-cta {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .secondary-cta:hover {
+            background: var(--primary-color);
+            color: #000;
+            transform: translateY(-5px);
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-grid, .why-grid {
+                grid-template-columns: 1fr;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+            .cta-btn {
+                width: 100%;
+            }
+        }
+        
+        /* Floating Action Buttons */
+        .fab-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .fab-main {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 25px rgba(0, 212, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .fab-main:hover {
+            transform: scale(1.1) rotate(90deg);
+            box-shadow: 0 8px 35px rgba(0, 212, 255, 0.7);
+        }
+        
+        .fab-icon {
+            font-size: 28px;
+            animation: pulse 2s infinite;
+        }
+        
+        .fab-menu {
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .fab-menu.active {
+            opacity: 1;
+            visibility: visible;
+            bottom: 75px;
+        }
+        
+        .fab-item {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--card-bg);
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+            animation: fabSlideIn 0.3s ease forwards;
+            opacity: 0;
+        }
+        
+        .fab-item:nth-child(1) { animation-delay: 0.1s; }
+        .fab-item:nth-child(2) { animation-delay: 0.15s; }
+        .fab-item:nth-child(3) { animation-delay: 0.2s; }
+        .fab-item:nth-child(4) { animation-delay: 0.25s; }
+        
+        @keyframes fabSlideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fab-item:hover {
+            background: var(--primary-color);
+            color: #000;
+            transform: scale(1.15);
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.6);
+        }
+        
+        @media (max-width: 768px) {
+            .fab-container {
+                bottom: 20px;
+                right: 20px;
+            }
+            .fab-main {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+<style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style><style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style></head>
+<body>
+    <!-- Skip to main content for screen readers -->
+    <a href="https://zeusthetics.github.io/cofem-zafir/#main-content" class="skip-link">Skip to main content</a>
+    
+    <div class="loader hidden" id="loader">
+        <div class="loader-ring"></div>
+    </div>
+    
+    <div class="bg-animation" aria-hidden="true">
+        <div class="grid-overlay"></div>
+    <div class="particle" style="width: 5.01451px; height: 5.01451px; left: 13.0405%; top: 21.463%; animation-delay: 17.9704s; animation-duration: 16.9529s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 2.18872px; height: 2.18872px; left: 43.4838%; top: 28.5981%; animation-delay: 17.9099s; animation-duration: 17.6911s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 2.58053px; height: 2.58053px; left: 73.7945%; top: 45.4363%; animation-delay: 14.0958s; animation-duration: 21.7675s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 2.81635px; height: 2.81635px; left: 72.8379%; top: 3.38185%; animation-delay: 0.76102s; animation-duration: 24.7452s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 5.49719px; height: 5.49719px; left: 72.3197%; top: 6.66831%; animation-delay: 1.82089s; animation-duration: 15.5305s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 5.25444px; height: 5.25444px; left: 76.7038%; top: 52.3543%; animation-delay: 0.423685s; animation-duration: 16.2149s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.57855px; height: 3.57855px; left: 4.9488%; top: 4.56579%; animation-delay: 15.0218s; animation-duration: 20.1591s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 3.62248px; height: 3.62248px; left: 96.9349%; top: 12.5926%; animation-delay: 16.6673s; animation-duration: 18.3974s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 3.73928px; height: 3.73928px; left: 29.1364%; top: 22.1592%; animation-delay: 5.9286s; animation-duration: 16.9088s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.69907px; height: 3.69907px; left: 16.3923%; top: 82.2753%; animation-delay: 18.4565s; animation-duration: 17.6667s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 2.54909px; height: 2.54909px; left: 61.8082%; top: 22.7313%; animation-delay: 3.31267s; animation-duration: 15.774s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 4.96847px; height: 4.96847px; left: 33.2259%; top: 33.4325%; animation-delay: 14.9723s; animation-duration: 20.9609s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.61379px; height: 3.61379px; left: 61.8122%; top: 77.3069%; animation-delay: 15.6344s; animation-duration: 23.9494s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 3.58081px; height: 3.58081px; left: 58.9566%; top: 45.295%; animation-delay: 4.60524s; animation-duration: 23.3996s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 4.04321px; height: 4.04321px; left: 74.4986%; top: 56.9899%; animation-delay: 16.0117s; animation-duration: 20.3079s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.25948px; height: 3.25948px; left: 17.1367%; top: 50.7573%; animation-delay: 0.769087s; animation-duration: 23.9719s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 2.99529px; height: 2.99529px; left: 74.764%; top: 46.505%; animation-delay: 16.5291s; animation-duration: 20.4484s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 4.75495px; height: 4.75495px; left: 34.2184%; top: 90.7018%; animation-delay: 10.6872s; animation-duration: 23.4734s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.00312px; height: 3.00312px; left: 29.311%; top: 21.5842%; animation-delay: 0.835193s; animation-duration: 19.9607s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 3.69911px; height: 3.69911px; left: 55.6635%; top: 88.1533%; animation-delay: 7.89072s; animation-duration: 22.1152s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 3.27338px; height: 3.27338px; left: 5.26074%; top: 96.8166%; animation-delay: 4.57245s; animation-duration: 15.0828s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.63372px; height: 3.63372px; left: 88.0817%; top: 28.7638%; animation-delay: 7.29422s; animation-duration: 22.4938s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 4.65811px; height: 4.65811px; left: 86.6972%; top: 48.4696%; animation-delay: 10.7906s; animation-duration: 17.4505s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 3.96797px; height: 3.96797px; left: 53.6757%; top: 15.0031%; animation-delay: 18.9935s; animation-duration: 21.5766s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 3.40918px; height: 3.40918px; left: 86.7021%; top: 49.4778%; animation-delay: 8.58643s; animation-duration: 24.6977s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 2.55431px; height: 2.55431px; left: 47.0398%; top: 87.3588%; animation-delay: 4.11169s; animation-duration: 20.2597s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 4.65448px; height: 4.65448px; left: 22.8195%; top: 95.5091%; animation-delay: 19.6591s; animation-duration: 20.4849s; transform: translate(14.4662px, -1.05755px);"></div><div class="particle" style="width: 2.60787px; height: 2.60787px; left: 96.2609%; top: 42.8682%; animation-delay: 11.571s; animation-duration: 19.3221s; transform: translate(4.82206px, -0.352518px);"></div><div class="particle" style="width: 4.99034px; height: 4.99034px; left: 14.2849%; top: 71.3195%; animation-delay: 15.2109s; animation-duration: 21.5098s; transform: translate(9.64413px, -0.705036px);"></div><div class="particle" style="width: 4.66165px; height: 4.66165px; left: 78.6129%; top: 80.0542%; animation-delay: 3.55775s; animation-duration: 20.6091s; transform: translate(14.4662px, -1.05755px);"></div></div>
+    
+    <div class="overlay" id="overlay" aria-hidden="true"></div>
+    
+    <!-- Floating Action Buttons -->
+    <aside class="fab-container" aria-label="Quick actions">
+        <button class="fab-main" onclick="toggleFabMenu()" aria-label="Toggle quick actions menu" aria-expanded="true" aria-controls="fabMenu">
+            <span class="fab-icon" aria-hidden="true">⚡</span>
+        </button>
+        <div class="fab-menu" id="fabMenu" role="menu">
+            <button class="fab-item" onclick="scrollToTop()" role="menuitem" aria-label="Scroll to top">
+                <span aria-hidden="true">↑</span>
+            </button>
+            <button class="fab-item" onclick="showSection(event, &#39;why-zafir&#39;)" role="menuitem" aria-label="Go to Why Zafir section">
+                <span aria-hidden="true">💎</span>
+            </button>
+            <button class="fab-item" onclick="showSection(event, &#39;competitive&#39;)" role="menuitem" aria-label="Go to Competitive Edge section">
+                <span aria-hidden="true">📊</span>
+            </button>
+            <button class="fab-item" onclick="alert(&#39;Contact: +91 92224 23106\\nEmail: projects@safexfire.com&#39;)" role="menuitem" aria-label="Contact information">
+                <span aria-hidden="true">📞</span>
+            </button>
+        </div>
+    </aside>
+    
+    <div class="container">
+        <header role="banner">
+            <div class="logo-container">
+                <div class="logo-circle">
+                    <div class="logo-text">SAFEX</div>
+                </div>
+            </div>
+            <h1>SAFEX FIRE SERVICES LTD</h1>
+            <p class="tagline">Next Generation Fire Alarm System</p>
+        </header>
+        
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-tabs" role="tablist">
+                <button class="nav-tab active" role="tab" aria-selected="true" aria-controls="overview" data-target="overview"><span>🔍 Overview</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="features" data-target="features"><span>⚡ Key Features</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="competitive" data-target="competitive"><span>🏆 Competitive Edge</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="devices" data-target="devices"><span>🔌 Device Catalog</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="why-zafir" data-target="why-zafir"><span>💎 Why Choose Zafir</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="installation" data-target="installation"><span>🔧 Installation</span></button>
+                <button class="nav-tab" role="tab" aria-selected="false" aria-controls="specifications" data-target="specifications"><span>📋 Specifications</span></button>
+            </div>
+        </nav>
+        
+        <main id="main-content" role="main">
+        
+        <!-- Overview Section -->
+        <section id="overview" class="content-section active">
+            <div class="cards-grid">
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🎯</div>
+                    <h3>EN54 Certified</h3>
+                    <p>Fully certified to EN54-2/EN54-4 standards for control, indicating equipment, and power supply. AENOR certified for European compliance.</p>
+                    <div class="expand-indicator">▼</div>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>EN54-2:</strong> Control &amp; Indicating Equipment - Ensures reliable fire detection control, fault monitoring, and alarm indication
+                        </div>
+                        <div class="detail-item">
+                            <strong>EN54-4:</strong> Power Supply Equipment - Guarantees battery backup, charging systems, and 24/7 operation
+                        </div>
+                        <div class="detail-item">
+                            <strong>Testing:</strong> Rigorous third-party testing covering temperature extremes, humidity, EMI, and long-term reliability
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🔢</div>
+                    <h3>Massive Capacity</h3>
+                    <p>Supports 1-2 addressable loops with up to 226 devices per loop. Network up to 15 panels for enterprise installations.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Single Loop:</strong> 226 devices - ideal for hotels, offices, schools
+                        </div>
+                        <div class="detail-item">
+                            <strong>Dual Loop:</strong> 452 devices total - perfect for larger facilities
+                        </div>
+                        <div class="detail-item">
+                            <strong>Network Mode:</strong> Up to 6,780 devices (15 panels × 452 devices)
+                        </div>
+                        <div class="detail-item">
+                            <strong>Max Distance:</strong> 1500m from panel to furthest device
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">⚡</div>
+                    <h3>Auto-Identification</h3>
+                    <p>Revolutionary plug-and-play technology eliminates manual addressing. Reduces commissioning time by 70%.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Process:</strong> Devices auto-report to panel, receive unique programming numbers automatically
+                        </div>
+                        <div class="detail-item">
+                            <strong>Time Saved:</strong> 100-device system: 3-4 days → 1-1.5 days
+                        </div>
+                        <div class="detail-item">
+                            <strong>Advantage:</strong> No DIP switches, no manual configuration, zero addressing errors
+                        </div>
+                        <div class="detail-item">
+                            <strong>I-Link Software:</strong> One-click auto-learning discovers all devices instantly
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🏢</div>
+                    <h3>Versatile Applications</h3>
+                    <p>Perfect for commercial buildings, industries, high-rise residential towers, and retrofit installations of any size.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Commercial:</strong> Offices, malls, banks, restaurants
+                        </div>
+                        <div class="detail-item">
+                            <strong>Industrial:</strong> Warehouses, factories, data centers, logistics
+                        </div>
+                        <div class="detail-item">
+                            <strong>Hospitality:</strong> Hotels, resorts, convention centers
+                        </div>
+                        <div class="detail-item">
+                            <strong>Residential:</strong> High-rise apartments, condominiums
+                        </div>
+                        <div class="detail-item">
+                            <strong>Healthcare:</strong> Hospitals, clinics, nursing homes
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🧠</div>
+                    <h3>Advanced Intelligence</h3>
+                    <p>Multi-sensor integration with AI algorithms reduces false alarms by 85-95% while maintaining maximum sensitivity.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Multi-Criteria:</strong> Analyzes smoke density, temperature rate, and CO levels simultaneously
+                        </div>
+                        <div class="detail-item">
+                            <strong>Smart Filtering:</strong> Distinguishes cooking smoke, steam, dust from real fires
+                        </div>
+                        <div class="detail-item">
+                            <strong>Environmental Compensation:</strong> Auto-adjusts sensitivity based on conditions
+                        </div>
+                        <div class="detail-item">
+                            <strong>Result:</strong> 85-95% reduction in false alarms vs single-sensor detectors
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">☁️</div>
+                    <h3>Cofem Remote IoT</h3>
+                    <p>Cloud-based monitoring with real-time notifications, remote diagnostics, and predictive maintenance capabilities.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Real-Time Alerts:</strong> Push notifications, email, SMS for alarms and faults
+                        </div>
+                        <div class="detail-item">
+                            <strong>Remote Control:</strong> Acknowledge alarms, adjust settings from anywhere
+                        </div>
+                        <div class="detail-item">
+                            <strong>Cloud Logs:</strong> 5+ years tamper-proof event history
+                        </div>
+                        <div class="detail-item">
+                            <strong>Multi-Site:</strong> Manage unlimited installations from one dashboard
+                        </div>
+                        <div class="detail-item">
+                            <strong>Predictive:</strong> AI predicts device failures before they occur
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="features" class="content-section">
+            <div class="cards-grid">
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">💻</div>
+                    <h3>I-Link Software</h3>
+                    <p>Professional PC configuration tool with visual floor plans, offline programming, and automatic documentation generation.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Auto-Learning:</strong> One-click device discovery and database creation
+                        </div>
+                        <div class="detail-item">
+                            <strong>Visual Programming:</strong> Drag-and-drop device icons on building floor plans
+                        </div>
+                        <div class="detail-item">
+                            <strong>Offline Config:</strong> Create complete configurations offline, then upload to panel
+                        </div>
+                        <div class="detail-item">
+                            <strong>Reports:</strong> Auto-generate commissioning reports, device lists, zone maps
+                        </div>
+                        <div class="detail-item">
+                            <strong>Requirements:</strong> Windows 7/8/10/11, Free download from cofem.com
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🔌</div>
+                    <h3>64 Relays</h3>
+                    <p>Extensive programmable relay outputs for HVAC, doors, dampers, suppression systems, and building integration.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Types:</strong> KMAY modules, relay bases (A30XZR), multi-channel modules
+                        </div>
+                        <div class="detail-item">
+                            <strong>Door Control:</strong> Magnetic door holders, access control integration
+                        </div>
+                        <div class="detail-item">
+                            <strong>HVAC:</strong> Shut down air handlers, close fire dampers, activate smoke evacuation
+                        </div>
+                        <div class="detail-item">
+                            <strong>Suppression:</strong> Activate gas/water mist/foam systems with double-knock logic
+                        </div>
+                        <div class="detail-item">
+                            <strong>Programming:</strong> Zone logic, AND conditions, delays, pulse outputs
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🗂️</div>
+                    <h3>99 Software Zones</h3>
+                    <p>Flexible zone management with logical grouping across physical boundaries for efficient system operation.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Physical Zones:</strong> Group by location - "Ground Floor", "East Wing", "Parking B2"
+                        </div>
+                        <div class="detail-item">
+                            <strong>Functional Zones:</strong> Group by use - "Office Areas", "Server Rooms", "Mechanical"
+                        </div>
+                        <div class="detail-item">
+                            <strong>Evacuation Zones:</strong> Staged evacuation for high-rise buildings
+                        </div>
+                        <div class="detail-item">
+                            <strong>Flexibility:</strong> Devices grouped logically regardless of physical wiring
+                        </div>
+                        <div class="detail-item">
+                            <strong>Easy Changes:</strong> Reconfigure zones without rewiring
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🌡️</div>
+                    <h3>Multi-Sensor Tech</h3>
+                    <p>Combines optical smoke, thermal, and CO detection for comprehensive fire identification and verification.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>A30XHA:</strong> Optical smoke - offices, corridors, general purpose (80m² coverage)
+                        </div>
+                        <div class="detail-item">
+                            <strong>A30XTA:</strong> Thermal heat - kitchens, dusty areas, garages (30m² coverage)
+                        </div>
+                        <div class="detail-item">
+                            <strong>A30XHTCO:</strong> Multi-sensor (smoke+heat+CO) - premium protection, false alarm immunity
+                        </div>
+                        <div class="detail-item">
+                            <strong>Smart Verification:</strong> Smoke+Heat confirms real fire, not steam or cooking
+                        </div>
+                        <div class="detail-item">
+                            <strong>Coverage:</strong> Up to 80m² per detector (open spaces)
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🌐</div>
+                    <h3>Network Ready</h3>
+                    <p>RS485 networking connects up to 15 panels. 1200m max distance with synchronized alarms and cross-panel actions.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Topology:</strong> Linear daisy-chain RS485 network
+                        </div>
+                        <div class="detail-item">
+                            <strong>Cable:</strong> 2×1.5mm² twisted shielded, max 1200m total length
+                        </div>
+                        <div class="detail-item">
+                            <strong>Capacity:</strong> Up to 6,780 devices across network (15 panels × 452)
+                        </div>
+                        <div class="detail-item">
+                            <strong>Features:</strong> Alarm propagation, cross-panel relay triggers, synchronized displays
+                        </div>
+                        <div class="detail-item">
+                            <strong>Termination:</strong> 120Ω resistor at first and last panel
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+                    <div class="expand-indicator">▼</div>
+                    <div class="icon">🔧</div>
+                    <h3>Fast Service</h3>
+                    <p>Remote diagnostics, device health monitoring, and predictive maintenance reduce service calls by 60-80%.</p>
+                    <div class="expandable-details">
+                        <div class="detail-item">
+                            <strong>Health Monitoring:</strong> Track smoke chamber contamination, CO sensor aging, battery health
+                        </div>
+                        <div class="detail-item">
+                            <strong>Proactive Alerts:</strong> "Clean Required", "Replace Soon", "Battery Low" notifications
+                        </div>
+                        <div class="detail-item">
+                            <strong>Remote Diagnostics:</strong> Troubleshoot issues without site visits
+                        </div>
+                        <div class="detail-item">
+                            <strong>Service Optimization:</strong> Plan maintenance during downtime, order parts before failures
+                        </div>
+                        <div class="detail-item">
+                            <strong>Cost Savings:</strong> 60-80% reduction in emergency service calls
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Competitive Edge Section -->
+        <section id="competitive" class="content-section">
+            <h2 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 42px; color: var(--primary-color); text-align: center; margin-bottom: 20px;">
+                Why Zafir Beats the Competition
+            </h2>
+            <p style="text-align: center; font-size: 20px; color: var(--accent-color); margin-bottom: 50px;">
+                Superior technology at unbeatable value
+            </p>
+            
+            <div class="comparison-grid">
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>⚡ Installation Speed</h3>
+                    <div class="comparison-bars">
+                        <div class="bar-row">
+                            <span class="bar-label">Zafir Auto-ID</span>
+                            <div class="bar-container">
+                                <div class="bar bar-zafir" style="width: 30%;">1-2 days</div>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">Traditional</span>
+                            <div class="bar-container">
+                                <div class="bar bar-competitor" style="width: 100%;">3-4 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="benefit">⏱️ Save 60-70% commissioning time</p>
+                </div>
+                
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>💰 Total Cost of Ownership</h3>
+                    <div class="comparison-bars">
+                        <div class="bar-row">
+                            <span class="bar-label">Zafir System</span>
+                            <div class="bar-container">
+                                <div class="bar bar-zafir" style="width: 70%;">₹₹₹</div>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">European Brands</span>
+                            <div class="bar-container">
+                                <div class="bar bar-competitor" style="width: 100%;">₹₹₹₹₹</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="benefit">💵 20-30% lower cost, same EN54 certification</p>
+                </div>
+                
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>🚫 False Alarm Rate</h3>
+                    <div class="comparison-bars">
+                        <div class="bar-row">
+                            <span class="bar-label">Zafir Multi-Sensor</span>
+                            <div class="bar-container">
+                                <div class="bar bar-zafir" style="width: 10%;">5-15%</div>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">Single-Sensor</span>
+                            <div class="bar-container">
+                                <div class="bar bar-competitor" style="width: 100%;">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="benefit">✅ 85-95% false alarm reduction</p>
+                </div>
+                
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>🌐 Remote Capabilities</h3>
+                    <div class="feature-check">
+                        <div class="check-row">
+                            <span>Full Remote Programming</span>
+                            <span class="check-zafir">✓</span>
+                            <span class="check-competitor">✗</span>
+                        </div>
+                        <div class="check-row">
+                            <span>Cloud Event Storage</span>
+                            <span class="check-zafir">✓</span>
+                            <span class="check-competitor">✗</span>
+                        </div>
+                        <div class="check-row">
+                            <span>Predictive Maintenance</span>
+                            <span class="check-zafir">✓</span>
+                            <span class="check-competitor">✗</span>
+                        </div>
+                        <div class="check-row">
+                            <span>Multi-Site Dashboard</span>
+                            <span class="check-zafir">✓</span>
+                            <span class="check-competitor">Limited</span>
+                        </div>
+                    </div>
+                    <p class="benefit">☁️ True IoT integration, not just monitoring</p>
+                </div>
+                
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>🛡️ Reliability</h3>
+                    <div class="feature-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">Uptime</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">-10°C to +50°C</div>
+                            <div class="stat-label">Operating Range</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Max Humidity</div>
+                        </div>
+                    </div>
+                    <p class="benefit">🌡️ Optimized for harsh Indian conditions</p>
+                </div>
+                
+                <div class="comparison-card mouse-follow" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="vs-badge">ZAFIR vs OTHERS</div>
+                    <h3>🔄 System Compatibility</h3>
+                    <div class="feature-list">
+                        <div class="list-item">✓ 100% Lyon ecosystem compatible</div>
+                        <div class="list-item">✓ Mixed device types on same loop</div>
+                        <div class="list-item">✓ Easy upgrades from existing systems</div>
+                        <div class="list-item">✓ Backward compatible with older modules</div>
+                    </div>
+                    <p class="benefit">🔗 Seamless integration with existing infrastructure</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Device Catalog Section -->
+        <section id="devices" class="content-section">
+            <h2 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 42px; color: var(--primary-color); text-align: center; margin-bottom: 20px;">
+                Complete Device Ecosystem
+            </h2>
+            <p style="text-align: center; font-size: 18px; color: var(--text-light); margin-bottom: 50px;">
+                Click each category to explore COFEM's certified detection devices
+            </p>
+            
+            <div class="device-categories">
+                <div class="device-category mouse-follow" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">💨</div>
+                        <h3>Smoke Detectors</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">Optical photoelectric sensors with advanced dirt compensation</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>A50S - Addressable Smoke Detector</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Optical smoke sensor</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V, 0.3mA standby</div>
+                                <div class="spec-item"><strong>Profile:</strong> Low profile &lt;42mm height</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-7</div>
+                                <div class="spec-item"><strong>Features:</strong> No polarity, remote indicator output</div>
+                                <div class="spec-item"><strong>LED:</strong> Red (flashing = standby, solid = alarm)</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50SI - Smoke Detector with Isolator</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Optical + Short-circuit isolator</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V with polarity</div>
+                                <div class="spec-item"><strong>LED:</strong> Bicolor (red + yellow)</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-7 + EN 54-17</div>
+                                <div class="spec-item"><strong>Best For:</strong> Critical applications requiring loop protection</div>
+                                <div class="spec-item"><strong>Advantage:</strong> Built-in isolator protects loop integrity</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>C50S - Conventional Smoke Detector</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Power:</strong> 12-30V without polarity</div>
+                                <div class="spec-item"><strong>Current:</strong> 35µA standby, 30mA alarm</div>
+                                <div class="spec-item"><strong>Coverage:</strong> 104m² (up to 15m height)</div>
+                                <div class="spec-item"><strong>Profile:</strong> Ø111mm x 41.4mm</div>
+                                <div class="spec-item"><strong>Best For:</strong> Conventional systems, retrofit</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-7</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="device-category mouse-follow" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">🌡️</div>
+                        <h3>Heat Detectors</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">Thermovelocimetric sensors - static and rate-of-rise detection</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>A50H - Addressable Heat Detector</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Thermovelocimetric sensor</div>
+                                <div class="spec-item"><strong>Activation:</strong> 60°C static temperature</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V, 0.3mA standby</div>
+                                <div class="spec-item"><strong>Profile:</strong> Low profile &lt;42mm height</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5 Class A2R</div>
+                                <div class="spec-item"><strong>Best For:</strong> Kitchens, garages, dusty environments</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50HI - Heat Detector with Isolator</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Heat sensor + isolator</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V with polarity</div>
+                                <div class="spec-item"><strong>LED:</strong> Bicolor (red + yellow)</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5 + EN 54-17</div>
+                                <div class="spec-item"><strong>Best For:</strong> Critical loops requiring protection</div>
+                                <div class="spec-item"><strong>Temperature:</strong> 60°C for slow fires</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>C50H - Conventional Heat Detector</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Power:</strong> 12-30V without polarity</div>
+                                <div class="spec-item"><strong>Current:</strong> 35µA standby, 30mA alarm</div>
+                                <div class="spec-item"><strong>Coverage:</strong> 30m² (subject to local regulations)</div>
+                                <div class="spec-item"><strong>Activation:</strong> Class A1R 57°C + rate-of-rise</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5</div>
+                                <div class="spec-item"><strong>Best For:</strong> Conventional systems</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="device-category mouse-follow" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">🔥</div>
+                        <h3>Multi-Sensor Detectors</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">Combined smoke + heat detection for maximum false alarm immunity</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>A50SH - Smoke + Heat Multi-Sensor</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Optical smoke + Thermovelocimetric heat</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V, 0.3mA standby</div>
+                                <div class="spec-item"><strong>Heat Threshold:</strong> 60°C static</div>
+                                <div class="spec-item"><strong>Profile:</strong> &lt;42mm height</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5 (A2R) + EN 54-7</div>
+                                <div class="spec-item"><strong>Best For:</strong> Multi-criteria fire detection</div>
+                            </div>
+                            <div class="highlight-box">
+                                <strong>💎 Recommended:</strong> 85-95% false alarm reduction vs. single-sensor detectors
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50SHI - Multi-Sensor with Isolator</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Smoke + Heat + Isolator</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V with polarity</div>
+                                <div class="spec-item"><strong>LED:</strong> Bicolor (red + yellow)</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5, EN 54-7, EN 54-17</div>
+                                <div class="spec-item"><strong>Best For:</strong> Hospitals, hotels, data centers</div>
+                                <div class="spec-item"><strong>Advantage:</strong> Triple protection in one device</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50SHCO - Smoke + Heat + CO Sensor</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Optical + Thermal + CO detection</div>
+                                <div class="spec-item"><strong>Power:</strong> 24-35V, enhanced current</div>
+                                <div class="spec-item"><strong>CO Sensor:</strong> Carbon monoxide detection</div>
+                                <div class="spec-item"><strong>Profile:</strong> 3D dirt-resistant design</div>
+                                <div class="spec-item"><strong>Best For:</strong> Premium applications</div>
+                                <div class="spec-item"><strong>Advantage:</strong> Highest false alarm immunity</div>
+                            </div>
+                            <div class="highlight-box">
+                                <strong>🏆 Ultimate Protection:</strong> Triple-sensor technology for mission-critical facilities
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>C50SH - Conventional Multi-Sensor</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Technology:</strong> Smoke + Heat combined</div>
+                                <div class="spec-item"><strong>Power:</strong> 12-30V without polarity</div>
+                                <div class="spec-item"><strong>Current:</strong> 35µA standby, 30mA alarm</div>
+                                <div class="spec-item"><strong>Coverage:</strong> 100m² / 7.2m radius</div>
+                                <div class="spec-item"><strong>Profile:</strong> Ø111mm x 55mm</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-5 (A2R) + EN 54-7</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="device-category mouse-follow" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">🔴</div>
+                        <h3>Manual Call Points</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">EN 54-11 certified manual fire alarm activation devices</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>PUCAY - Addressable Manual Call Point</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Type:</strong> Break-glass, resettable</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop powered</div>
+                                <div class="spec-item"><strong>Reset:</strong> Yellow test button (tool-free)</div>
+                                <div class="spec-item"><strong>LED:</strong> Red (flashing = normal, solid = activated)</div>
+                                <div class="spec-item"><strong>Mounting:</strong> Surface or flush</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-11</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>PUCAYEXT - Extended Capability MCP</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Feature:</strong> Dual-function capability</div>
+                                <div class="spec-item"><strong>Device Count:</strong> Registers as 2 devices</div>
+                                <div class="spec-item"><strong>Use:</strong> Direct relay activation for suppression</div>
+                                <div class="spec-item"><strong>Best For:</strong> Gas suppression trigger points</div>
+                                <div class="spec-item"><strong>Advantage:</strong> Double-knock logic without second device</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-11</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>Conventional Manual Call Points</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Compatibility:</strong> Works with KMAY modules</div>
+                                <div class="spec-item"><strong>Connection:</strong> Via Zone C terminals</div>
+                                <div class="spec-item"><strong>Capacity:</strong> Up to 10 per KMAY module</div>
+                                <div class="spec-item"><strong>Supervision:</strong> 10µF/63V end-of-line</div>
+                                <div class="spec-item"><strong>Status:</strong> Open/crossed line detection</div>
+                                <div class="spec-item"><strong>Best For:</strong> Conventional to addressable interface</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="device-category mouse-follow" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">🔊</div>
+                        <h3>Sounders &amp; Visual Alarms</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">EN 54-3 and EN 54-23 certified notification devices</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>SIRAY - Addressable Sounder</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Output:</strong> 96dB (high), 90dB (low) @ 1m</div>
+                                <div class="spec-item"><strong>Tones:</strong> 31 programmable tones</div>
+                                <div class="spec-item"><strong>Current:</strong> 0mA standby, 6mA alarm</div>
+                                <div class="spec-item"><strong>Power:</strong> 18-30V with polarity</div>
+                                <div class="spec-item"><strong>Mounting:</strong> Surface or flush</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-3</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>SIRAYL - Addressable Sounder with Beacon</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Sound:</strong> 96dB/90dB @ 1m</div>
+                                <div class="spec-item"><strong>Visual:</strong> LED strobe beacon</div>
+                                <div class="spec-item"><strong>Current:</strong> Enhanced for visual alarm</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-3 + EN 54-23</div>
+                                <div class="spec-item"><strong>Best For:</strong> High-noise environments</div>
+                                <div class="spec-item"><strong>Flash Rate:</strong> 0.5Hz or 1Hz selectable</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50ZSLDR / A30XZSLDR - Detector Base with Sounder + Beacon</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Sound:</strong> 90dB/96dB @ 1m (Low/High)</div>
+                                <div class="spec-item"><strong>Visual:</strong> White LED strobe (0.5Hz)</div>
+                                <div class="spec-item"><strong>Current:</strong> 19-20mA alarm</div>
+                                <div class="spec-item"><strong>Mounting:</strong> Detector base (requires SIRDR detector)</div>
+                                <div class="spec-item"><strong>Tones:</strong> 31 selectable via DIP switch</div>
+                                <div class="spec-item"><strong>Best For:</strong> Hotel rooms, nursing areas, hearing-impaired</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>A50ZSDDR / A30XZSDDR - Detector Base with Sounder Only</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Sound:</strong> 90dB/96dB @ 1m</div>
+                                <div class="spec-item"><strong>Current:</strong> 5-6mA alarm</div>
+                                <div class="spec-item"><strong>Tones:</strong> 31 programmable</div>
+                                <div class="spec-item"><strong>Mounting:</strong> Under A50 or A30X detectors</div>
+                                <div class="spec-item"><strong>Profile:</strong> Ø112mm x 43mm</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-3</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>SIR-24B / SIR-24BL - Internal Tone Sounder</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Type:</strong> Two-tone 24V sounder</div>
+                                <div class="spec-item"><strong>Volume:</strong> Adjustable ±20dB</div>
+                                <div class="spec-item"><strong>Connection:</strong> Control panel or relay module</div>
+                                <div class="spec-item"><strong>Wiring:</strong> Requires 33KΩ or 4K7Ω EOL resistor</div>
+                                <div class="spec-item"><strong>Diode:</strong> BY252 included (2 per panel)</div>
+                                <div class="spec-item"><strong>Best For:</strong> General sounder output</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>CAEC - External Alarm Box</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Type:</strong> Red outdoor siren enclosure</div>
+                                <div class="spec-item"><strong>Power:</strong> 24V piezoelectric speaker</div>
+                                <div class="spec-item"><strong>Material:</strong> ABS plastic, weatherproof</div>
+                                <div class="spec-item"><strong>Timing:</strong> 3min or 15min (jumper select)</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-3 Type B</div>
+                                <div class="spec-item"><strong>Best For:</strong> External notification, building perimeter</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="device-category mouse-follow expanded" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="true" style="transform: translate(15px, 6.46px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="category-header">
+                        <div class="category-icon">⚙️</div>
+                        <h3>I/O Modules &amp; Interfaces</h3>
+                        <div class="expand-indicator">▼</div>
+                    </div>
+                    <p class="category-desc">EN 54-18 certified input/output and interface modules</p>
+                    <div class="expandable-details">
+                        <div class="device-spec-card">
+                            <h4>KMAY - Conventional Detector Interface Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Function:</strong> Interface conventional to addressable</div>
+                                <div class="spec-item"><strong>Zone C:</strong> Up to 10 manual call points</div>
+                                <div class="spec-item"><strong>Zone D:</strong> 20 heat OR 15 smoke detectors</div>
+                                <div class="spec-item"><strong>Supervision:</strong> 10µF/63V capacitor EOL</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop powered + remote indicator output</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-18</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>KMAY32 - Enhanced Interface Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Zone C:</strong> Up to 10 manual call points</div>
+                                <div class="spec-item"><strong>Zone D:</strong> 32 heat OR 32 mixed devices</div>
+                                <div class="spec-item"><strong>Supervision:</strong> 4K7Ω resistor EOL</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop + 24V auxiliary supply</div>
+                                <div class="spec-item"><strong>Configuration:</strong> Microswitch threshold adjustment</div>
+                                <div class="spec-item"><strong>Dimensions:</strong> 159x118x72mm, IP55</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MYOA / MYOAF - Relay + Input Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Relay Output:</strong> 1× Form C (30VDC)</div>
+                                <div class="spec-item"><strong>Input:</strong> 1× technical signal (dry contact)</div>
+                                <div class="spec-item"><strong>Supervision:</strong> 33KΩ line monitoring</div>
+                                <div class="spec-item"><strong>Protection:</strong> 0.9A resettable fuse</div>
+                                <div class="spec-item"><strong>LED:</strong> Red (comms/alarm), Green (relay active)</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-18</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MDA1Y - Single Relay Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Outputs:</strong> 1× programmable relay</div>
+                                <div class="spec-item"><strong>Rating:</strong> 2A @ 30VDC, 1A @ 125VAC</div>
+                                <div class="spec-item"><strong>Power:</strong> 30V auxiliary required</div>
+                                <div class="spec-item"><strong>Use:</strong> HVAC, door holders, dampers</div>
+                                <div class="spec-item"><strong>Supervision:</strong> Monitored output</div>
+                                <div class="spec-item"><strong>Dimensions:</strong> 82.5x123x26.4mm</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MDA2Y - Dual Relay Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Outputs:</strong> 2× programmable relays</div>
+                                <div class="spec-item"><strong>Configuration:</strong> Independent or linked</div>
+                                <div class="spec-item"><strong>Power:</strong> 30V auxiliary supply</div>
+                                <div class="spec-item"><strong>Best For:</strong> Complex control sequences</div>
+                                <div class="spec-item"><strong>Programming:</strong> Sounder, switched, or crossed</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-18</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MDA2YLT - Dry Contact Relay Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Type:</strong> 2× voltage-free relay outputs</div>
+                                <div class="spec-item"><strong>Rating:</strong> Suitable for external systems</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop powered</div>
+                                <div class="spec-item"><strong>Use:</strong> BMS integration, third-party systems</div>
+                                <div class="spec-item"><strong>Advantage:</strong> No auxiliary power required</div>
+                                <div class="spec-item"><strong>Certification:</strong> EN 54-18</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MSTAY - Technical Signal Input Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Inputs:</strong> Monitor external devices</div>
+                                <div class="spec-item"><strong>Connection:</strong> Dry contact interface</div>
+                                <div class="spec-item"><strong>Use:</strong> Flow switches, tamper, pressure switches</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop powered</div>
+                                <div class="spec-item"><strong>Supervision:</strong> Line monitoring</div>
+                                <div class="spec-item"><strong>Best For:</strong> Sprinkler systems, gas suppression</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>MSTAY8 - 8-Input Monitor Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Inputs:</strong> 8× supervised zones</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop + 24V auxiliary</div>
+                                <div class="spec-item"><strong>Supervision:</strong> Individual zone monitoring</div>
+                                <div class="spec-item"><strong>Use:</strong> Multi-zone conventional interface</div>
+                                <div class="spec-item"><strong>Best For:</strong> Beam detectors, duct sensors</div>
+                                <div class="spec-item"><strong>Configuration:</strong> Programmable per input</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>KABY - Loop Isolator Module</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Function:</strong> Short-circuit loop protection</div>
+                                <div class="spec-item"><strong>Response:</strong> Opens within 100ms</div>
+                                <div class="spec-item"><strong>Recovery:</strong> Auto-reconnects when fault clears</div>
+                                <div class="spec-item"><strong>Power:</strong> Loop powered (not supervised)</div>
+                                <div class="spec-item"><strong>Placement:</strong> Every 20-25 devices recommended</div>
+                                <div class="spec-item"><strong>Best For:</strong> Critical loop protection</div>
+                            </div>
+                        </div>
+                        <div class="device-spec-card">
+                            <h4>PIAL - Remote Indicator</h4>
+                            <div class="spec-grid">
+                                <div class="spec-item"><strong>Function:</strong> Remote alarm indication</div>
+                                <div class="spec-item"><strong>Connection:</strong> Detector remote output</div>
+                                <div class="spec-item"><strong>Indicator:</strong> Red LED</div>
+                                <div class="spec-item"><strong>Use:</strong> Above doorways, in corridors</div>
+                                <div class="spec-item"><strong>Best For:</strong> Identifying alarm location</div>
+                                <div class="spec-item"><strong>Power:</strong> Powered by detector</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA Buttons for Device Catalog -->
+            <div class="cta-buttons" style="margin-top: 60px;">
+                <button onclick="window.location.href=&#39;tel:+919222423106&#39;" class="cta-btn primary-cta" style="cursor: pointer; border: none; font-family: &#39;Rajdhani&#39;, sans-serif;">
+                    📞 Request a Demo
+                </button>
+                <button onclick="window.location.href=&#39;mailto:projects@safexfire.com&#39;" class="cta-btn primary-cta" style="cursor: pointer; border: none; font-family: &#39;Rajdhani&#39;, sans-serif;">
+                    📧 Get a Quote
+                </button>
+                <button onclick="window.open(&#39;https://drive.google.com/file/d/1UBMhYt5YIPBajAUA-iAsSVTqyN-C1iuT/view?usp=sharing&#39;, &#39;_blank&#39;)" class="cta-btn secondary-cta" style="cursor: pointer; border: none; font-family: &#39;Rajdhani&#39;, sans-serif;">
+                    📥 Download Brochure
+                </button>
+            </div>
+        </section>
+        
+        <!-- Why Choose Zafir Section -->
+        <section id="why-zafir" class="content-section">
+            <h2 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 42px; color: var(--accent-color); text-align: center; margin-bottom: 20px;">
+                The Zafir Advantage
+            </h2>
+            <p style="text-align: center; font-size: 20px; color: var(--text-light); margin-bottom: 50px;">
+                Engineered for Excellence, Priced for Reality
+            </p>
+            
+            <div class="why-grid">
+                <div class="why-card mouse-follow" style="transform: translate(12.1px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">🚀</div>
+                    <h3>Future-Ready Technology</h3>
+                    <ul class="why-list">
+                        <li>IoT cloud connectivity built-in</li>
+                        <li>OTA firmware updates</li>
+                        <li>AI-powered predictive maintenance</li>
+                        <li>Scalable architecture for growth</li>
+                    </ul>
+                </div>
+                
+                <div class="why-card mouse-follow" style="transform: translate(4.02549px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">⚡</div>
+                    <h3>Rapid ROI</h3>
+                    <ul class="why-list">
+                        <li>60-70% faster installation</li>
+                        <li>80% reduction in false alarm costs</li>
+                        <li>Reduced service call expenses</li>
+                        <li>Lower total cost of ownership</li>
+                    </ul>
+                </div>
+                
+                <div class="why-card mouse-follow" style="transform: translate(12.1px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">🛡️</div>
+                    <h3>Uncompromising Safety</h3>
+                    <ul class="why-list">
+                        <li>Full EN54 certification</li>
+                        <li>Multi-sensor verification</li>
+                        <li>Redundant network capability</li>
+                        <li>24/7 monitoring support</li>
+                    </ul>
+                </div>
+                
+                <div class="why-card mouse-follow" style="transform: translate(4.02549px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">🌍</div>
+                    <h3>Local Support, Global Standards</h3>
+                    <ul class="why-list">
+                        <li>SAFEX nationwide service network</li>
+                        <li>European quality standards</li>
+                        <li>India-optimized for harsh conditions</li>
+                        <li>24/7 technical support hotline</li>
+                    </ul>
+                </div>
+                
+                <div class="why-card mouse-follow" style="transform: translate(12.1px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">💼</div>
+                    <h3>Business Intelligence</h3>
+                    <ul class="why-list">
+                        <li>Comprehensive analytics dashboard</li>
+                        <li>Automated compliance reports</li>
+                        <li>Device health trending</li>
+                        <li>Cost tracking per site</li>
+                    </ul>
+                </div>
+                
+                <div class="why-card mouse-follow" style="transform: translate(4.02549px, -15px); opacity: 1; transition: opacity 0.6s, transform 0.6s;">
+                    <div class="why-icon">🔧</div>
+                    <h3>Easy Maintenance</h3>
+                    <ul class="why-list">
+                        <li>Remote diagnostics capability</li>
+                        <li>Tool-free device replacement</li>
+                        <li>Auto-detection of new devices</li>
+                        <li>Minimal downtime for upgrades</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h3 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 32px; color: var(--primary-color); text-align: center; margin-bottom: 20px;">
+                    Ready to Experience the Future?
+                </h3>
+                <p style="text-align: center; font-size: 18px; margin-bottom: 30px;">
+                    Join hundreds of satisfied customers who've upgraded to Zafir
+                </p>
+                <div class="cta-buttons">
+                    <button onclick="window.location.href='tel:+919222423106'" class="cta-btn primary-cta mouse-follow" style="transform: translate(10.5429px, -15px);">📞 Request a Demo</button>
+                    <button onclick="window.location.href='mailto:projects@safexfire.com'" class="cta-btn secondary-cta mouse-follow" style="transform: translate(5.17206px, -15px);">📧 Get a Quote</button>
+                    <button onclick="window.open('https://drive.google.com/file/d/1UBMhYt5YIPBajAUA-iAsSVTqyN-C1iuT/view?usp=sharing', '_blank')" class="cta-btn secondary-cta mouse-follow" style="transform: translate(8.06274px, -15px);">📖 Download Brochure</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="installation" class="content-section">
+            <div class="installation-steps">
+                <div class="step" data-step="01">
+                    <h4>🔨 Mount Panel &amp; Prepare Cables</h4>
+                    <p><strong>Location:</strong> Vertical surface with side clearance for ventilation<br>
+                    <strong>Dimensions:</strong> 226×280×130mm<br>
+                    <strong>Cabling:</strong> Use pre-defined knockouts, separate power from signal cables</p>
+                </div>
+                
+                <div class="step" data-step="02">
+                    <h4>⚡ Power &amp; Battery Connection</h4>
+                    <p><strong>Mains:</strong> 110/230V AC via dedicated MCB<br>
+                    <strong>Batteries:</strong> 2×12V 7-24Ah SLA based on load<br>
+                    <strong>Safety:</strong> Disconnect mains and batteries before internal work</p>
+                </div>
+                
+                <div class="step" data-step="03">
+                    <h4>🔧 Wire Loops &amp; Devices</h4>
+                    <p><strong>Cable:</strong> 2×1.5mm² shielded, halogen-free<br>
+                    <strong>Topology:</strong> Loop or T-tap, max 1500m distance<br>
+                    <strong>Devices:</strong> Install detectors, modules, MCPs, isolators per design</p>
+                </div>
+                
+                <div class="step" data-step="04">
+                    <h4>🔊 Connect Sounders &amp; Contacts</h4>
+                    <p><strong>Sounder S1:</strong> Supervised 24V output<br>
+                    <strong>Dry Contacts:</strong> ALARM and FAULT relay outputs<br>
+                    <strong>EOL:</strong> 4.7kΩ end-of-line resistors for supervision</p>
+                </div>
+                
+                <div class="step" data-step="05">
+                    <h4>💻 Power Up &amp; Program</h4>
+                    <p><strong>Power-On:</strong> Verify LEDs and display<br>
+                    <strong>I-Link:</strong> USB connection, run auto-learning<br>
+                    <strong>Configuration:</strong> Assign zones, relay actions, system parameters</p>
+                </div>
+                
+                <div class="step" data-step="06">
+                    <h4>✅ Walk-Through Testing</h4>
+                    <p><strong>Device Test:</strong> Built-in Test Mode for each device<br>
+                    <strong>Functional:</strong> Verify alarms, sounders, relay operations<br>
+                    <strong>Documentation:</strong> Generate commissioning report</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="specifications" class="content-section">
+            <h2 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 36px; color: var(--primary-color); text-align: center; margin-bottom: 40px;">
+                Technical Specifications
+            </h2>
+            
+            <h3 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 24px; color: var(--accent-color); margin: 40px 0 20px;">
+                Panel Specifications
+            </h3>
+            <table class="spec-table">
+                <tbody><tr>
+                    <td>Certification</td>
+                    <td>EN54-2 (Control &amp; Indicating), EN54-4 (Power Supply)</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>226mm (W) × 280mm (H) × 130mm (D)</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>5kg (without batteries)</td>
+                </tr>
+                <tr>
+                    <td>Loop Capacity</td>
+                    <td>1-2 addressable loops</td>
+                </tr>
+                <tr>
+                    <td>Devices per Loop</td>
+                    <td>Up to 226 addressable devices</td>
+                </tr>
+                <tr>
+                    <td>Software Zones</td>
+                    <td>Up to 99 programmable zones</td>
+                </tr>
+                <tr>
+                    <td>Network</td>
+                    <td>Up to 15 panels via RS485 (1200m max)</td>
+                </tr>
+                <tr>
+                    <td>Input Voltage</td>
+                    <td>110-230V AC, 50-60Hz</td>
+                </tr>
+                <tr>
+                    <td>Battery</td>
+                    <td>2×12V 7-24Ah SLA batteries</td>
+                </tr>
+                <tr>
+                    <td>Operating Temp</td>
+                    <td>-10°C to +50°C</td>
+                </tr>
+                <tr>
+                    <td>Humidity</td>
+                    <td>20%-95% RH (non-condensing)</td>
+                </tr>
+                <tr>
+                    <td>IP Rating</td>
+                    <td>IP30 (indoor use)</td>
+                </tr>
+            </tbody></table>
+            
+            <h3 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 24px; color: var(--accent-color); margin: 40px 0 20px;">
+                Loop &amp; Device Specifications
+            </h3>
+            <table class="spec-table">
+                <tbody><tr>
+                    <td>Loop Cable</td>
+                    <td>2×1.5-2.5mm² shielded, halogen-free</td>
+                </tr>
+                <tr>
+                    <td>Loop Voltage</td>
+                    <td>24-35V DC (polarity sensitive)</td>
+                </tr>
+                <tr>
+                    <td>Loop Current</td>
+                    <td>500mA maximum</td>
+                </tr>
+                <tr>
+                    <td>Max Distance</td>
+                    <td>1500m from panel to furthest device</td>
+                </tr>
+                <tr>
+                    <td>Smoke Detectors</td>
+                    <td>A30XHA, A30XHA-S (optical)</td>
+                </tr>
+                <tr>
+                    <td>Heat Detectors</td>
+                    <td>A30XTA (rate-of-rise + fixed)</td>
+                </tr>
+                <tr>
+                    <td>Multi-Sensors</td>
+                    <td>A30XHTCO (smoke + heat + CO)</td>
+                </tr>
+                <tr>
+                    <td>Manual Call Points</td>
+                    <td>PUCAY, PUCAYEXT (resettable)</td>
+                </tr>
+                <tr>
+                    <td>Sounders</td>
+                    <td>SIRAY, A30XZSLDR, A30XZSDDR</td>
+                </tr>
+                <tr>
+                    <td>I/O Modules</td>
+                    <td>MDAXY, KMAY, MSTAY, MYOA</td>
+                </tr>
+            </tbody></table>
+            
+            <h3 style="font-family: &#39;Orbitron&#39;, sans-serif; font-size: 24px; color: var(--accent-color); margin: 40px 0 20px;">
+                Outputs &amp; Interfaces
+            </h3>
+            <table class="spec-table">
+                <tbody><tr>
+                    <td>Configurable Relays</td>
+                    <td>Up to 64 programmable outputs</td>
+                </tr>
+                <tr>
+                    <td>Sounder Output</td>
+                    <td>24V DC @ 0.5A (supervised)</td>
+                </tr>
+                <tr>
+                    <td>Auxiliary 30V</td>
+                    <td>30V DC @ 0.5A (for modules)</td>
+                </tr>
+                <tr>
+                    <td>Alarm Contact</td>
+                    <td>Dry NO/NC @ 0.5A</td>
+                </tr>
+                <tr>
+                    <td>Fault Contact</td>
+                    <td>Dry NO/NC @ 0.5A</td>
+                </tr>
+                <tr>
+                    <td>USB Port</td>
+                    <td>For I-Link programming software</td>
+                </tr>
+                <tr>
+                    <td>Ethernet</td>
+                    <td>Cofem Remote cloud connection (optional)</td>
+                </tr>
+                <tr>
+                    <td>RS485 Network</td>
+                    <td>CP NETWORK terminals for panel networking</td>
+                </tr>
+            </tbody></table>
+        </section>
+    </main>
+    
+    <!-- ARIA Live Region for Screen Reader Announcements -->
+    <div id="aria-announcer" role="status" aria-live="polite" aria-atomic="true" style="position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;">Navigated to overview section</div>
+    
+    <footer role="contentinfo">
+        <div class="footer-logo">SAFEX FIRE SERVICES LTD</div>
+        <p class="footer-text">Powering Your Way to Safety Since 1972</p>
+        <p class="footer-text" style="margin-top: 15px; font-size: 16px;">
+            For more information, contact your SAFEX representative
+        </p>
+    </footer>
+    
+    <script>
+        // Particle animation - Optimized for performance
+        function createParticles() {
+            const container = document.querySelector('.bg-animation');
+            const particleCount = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 
+                                 window.innerWidth < 768 ? 15 : 30; // Fewer on mobile
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.width = Math.random() * 4 + 2 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 15) + 's';
+                container.appendChild(particle);
+            }
+        }
+        
+        function showSection(event, sectionId) {
+            // Handle string argument (from FAB buttons or direct calls)
+            if (typeof event === 'string') { 
+                sectionId = event; 
+                event = null; 
+            }
+            
+            // Hide all content sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+                tab.setAttribute('aria-selected', 'false');
+            });
+            
+            // Verify target section exists before proceeding
+            const targetSection = document.getElementById(sectionId);
+            if (!targetSection) {
+                console.warn('showSection: Section not found for id =', sectionId);
+                // Fallback to overview if section doesn't exist
+                const overviewSection = document.getElementById('overview');
+                if (overviewSection) {
+                    overviewSection.classList.add('active');
+                    const overviewTab = document.querySelector('.nav-tab[data-target="overview"]');
+                    if (overviewTab) {
+                        overviewTab.classList.add('active');
+                        overviewTab.setAttribute('aria-selected', 'true');
+                    }
+                }
+                return;
+            }
+            
+            // Show selected section
+            targetSection.classList.add('active');
+            
+            // Activate matching tab
+            const matchingTab = event && event.target 
+                ? event.target.closest('.nav-tab') 
+                : document.querySelector(`.nav-tab[data-target="${sectionId}"]`);
+                
+            if (matchingTab) {
+                matchingTab.classList.add('active');
+                matchingTab.setAttribute('aria-selected', 'true');
+            }
+            
+            // Scroll to top smoothly
+            const mainContent = document.getElementById('main-content');
+            if (mainContent) {
+                mainContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            
+            // Announce section change to screen readers
+            const announcement = document.getElementById('aria-announcer');
+            if (announcement) {
+                announcement.textContent = `Navigated to ${sectionId} section`;
+            }
+        }
+        
+        function toggleDetails(card) {
+            const isExpanded = card.classList.contains('expanded');
+            
+            // Close other expanded cards in the same section
+            const section = card.closest('.content-section');
+            const otherCards = section.querySelectorAll('.feature-card.expanded, .device-category.expanded');
+            otherCards.forEach(otherCard => {
+                if (otherCard !== card) {
+                    otherCard.classList.remove('expanded');
+                    otherCard.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            // Toggle current card
+            card.classList.toggle('expanded');
+            card.setAttribute('aria-expanded', !isExpanded);
+            
+            // Smooth scroll to show expanded content
+            if (!isExpanded) {
+                setTimeout(() => {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 300);
+            }
+        }
+        
+        // Add keyboard support for expandable cards
+        document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('keydown', (e) => {
+                if (e.target.classList.contains('feature-card') || e.target.classList.contains('device-category')) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggleDetails(e.target);
+                    }
+                }
+            });
+        });
+        
+        // Mouse Follow Effect - Optimized
+        let mouseX = 0;
+        let mouseY = 0;
+        let isMouseFollowEnabled = !window.matchMedia('(prefers-reduced-motion: reduce)').matches 
+                                   && window.innerWidth >= 768; // Disable on mobile for performance
+        
+        if (isMouseFollowEnabled) {
+            document.addEventListener('mousemove', (e) => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+        }
+        
+        function applyMouseFollowEffect() {
+            if (!isMouseFollowEnabled) return;
+            
+            const followElements = document.querySelectorAll('.mouse-follow');
+            
+            followElements.forEach(element => {
+                const rect = element.getBoundingClientRect();
+                const elementX = rect.left + rect.width / 2;
+                const elementY = rect.top + rect.height / 2;
+                
+                const deltaX = (mouseX - elementX) / 50;
+                const deltaY = (mouseY - elementY) / 50;
+                
+                // Limit the movement
+                const limitedX = Math.max(-15, Math.min(15, deltaX));
+                const limitedY = Math.max(-15, Math.min(15, deltaY));
+                
+                element.style.transform = `translate(${limitedX}px, ${limitedY}px)`;
+            });
+            
+            requestAnimationFrame(applyMouseFollowEffect);
+        }
+        
+        // Parallax effect for background - Optimized
+        if (isMouseFollowEnabled) {
+            document.addEventListener('mousemove', (e) => {
+                const particles = document.querySelectorAll('.particle');
+                const mouseXPercent = e.clientX / window.innerWidth;
+                const mouseYPercent = e.clientY / window.innerHeight;
+                
+                particles.forEach((particle, index) => {
+                    const speed = (index % 3 + 1) * 0.5;
+                    const x = (mouseXPercent - 0.5) * 20 * speed;
+                    const y = (mouseYPercent - 0.5) * 20 * speed;
+                    particle.style.transform = `translate(${x}px, ${y}px)`;
+                });
+            });
+        }
+        
+        // Animated counters for stats
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const value = Math.floor(progress * (end - start) + start);
+                element.textContent = value + (element.dataset.suffix || '');
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    
+                    // Animate stat numbers
+                    if (entry.target.classList.contains('stat-number')) {
+                        const endValue = parseInt(entry.target.textContent);
+                        animateValue(entry.target, 0, endValue, 2000);
+                    }
+                    
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        // Observe elements for scroll animations
+        function observeElements() {
+            const elementsToObserve = document.querySelectorAll('.comparison-card, .device-category, .why-card');
+            elementsToObserve.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+        }
+        
+        // Initialize
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1000);
+            
+            applyMouseFollowEffect();
+            observeElements();
+            initKeyboardNavigation();
+        });
+        
+        // Keyboard Navigation for Tabs
+        function initKeyboardNavigation() {
+            const tabs = document.querySelectorAll('.nav-tab');
+            
+            // Delegated event listeners for tabs
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', (e) => {
+                    const targetId = tab.dataset.target;
+                    showSection(e, targetId);
+                });
+                
+                // Keyboard navigation with arrow keys
+                tab.addEventListener('keydown', (e) => {
+                    let newIndex;
+                    
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                        newIndex = (index + 1) % tabs.length;
+                        e.preventDefault();
+                    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                        newIndex = (index - 1 + tabs.length) % tabs.length;
+                        e.preventDefault();
+                    } else if (e.key === 'Home') {
+                        newIndex = 0;
+                        e.preventDefault();
+                    } else if (e.key === 'End') {
+                        newIndex = tabs.length - 1;
+                        e.preventDefault();
+                    }
+                    
+                    if (newIndex !== undefined) {
+                        tabs[newIndex].focus();
+                        tabs[newIndex].click();
+                    }
+                });
+            });
+            
+            // ESC key closes FAB menu and expandable cards
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    const fabMenu = document.getElementById('fabMenu');
+                    if (fabMenu.classList.contains('active')) {
+                        fabMenu.classList.remove('active');
+                        document.querySelector('.fab-main').focus();
+                    }
+                    
+                    // Close expanded cards
+                    document.querySelectorAll('.feature-card.expanded, .device-category.expanded').forEach(card => {
+                        card.classList.remove('expanded');
+                        card.setAttribute('aria-expanded', 'false');
+                    });
+                }
+            });
+        }
+        
+        // Floating Action Button Menu
+        function toggleFabMenu() {
+            const fabMenu = document.getElementById('fabMenu');
+            const fabButton = document.querySelector('.fab-main');
+            const isActive = fabMenu.classList.contains('active');
+            
+            fabMenu.classList.toggle('active');
+            fabButton.setAttribute('aria-expanded', !isActive);
+        }
+        
+        // Scroll to Top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            const fabMenu = document.getElementById('fabMenu');
+            fabMenu.classList.remove('active');
+        }
+        
+        // Close FAB menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const fabContainer = document.querySelector('.fab-container');
+            const fabMenu = document.getElementById('fabMenu');
+            if (!fabContainer.contains(e.target) && fabMenu.classList.contains('active')) {
+                fabMenu.classList.remove('active');
+            }
+        });
+        
+        createParticles();
+    </script>
+
+
+</div><div class="control-tab-brightness-overlay" style="background-color: black; position: fixed; width: 100%; height: 100%; opacity: 0; top: 0px; left: 0px; pointer-events: none; z-index: 2147483647;"></div><gdiv class="ginger-extension-writer" style="display: none;"><gdiv class="ginger-extension-writer-frame"><iframe src="./COFEM Zafir - Next Generation Fire Alarm System _ SAFEX Fire Services_files/index.html"></iframe></gdiv></gdiv></body></html>
